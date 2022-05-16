@@ -15,7 +15,7 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
         
-        let rotation: CABasicAnimation = CABasicAnimation(keyPath: "transform.rotation.x")
+        let rotation: CABasicAnimation = CABasicAnimation(keyPath: "transform.rotation.z")
         // pi = 180도
         rotation.toValue = Double.pi * 2
         // 1바퀴 도는데 걸리는 시간
